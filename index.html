@@ -4,8 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="game.js" defer></script>
 </head>
 <body>
-    <script src="game.js"></script>
+    <div class = "header">
+        <h1>Rock Paper Scissors</h1>
+    </div>
+    <div class = "game">
+        <div class="scores">
+            <h3>Human Score</h3>
+            <h3>Computer Score</h3>
+        </div>
+        <div class="scoreNum">
+            <p class="human-score">0</p>
+            <p class="computer-score">0</p>
+        </div>
+        <div class="playing">
+            <div class="icon" id="human">Human choice here</div>
+            <div class="icon" id="computer">Computer choicee here</div>
+        </div>
+        <div class="options">
+            <button type="button" id="rock">Rock</button>
+            <button type="button" id="paper">Paper</button>
+            <button type="button" id="scissors">Scissors</button>
+        </div>
+        <div class="playA">
+            <div class="playAgainB">
+            <button type="button" id="playAgain">
+                Play Again!
+            </button>
+        </div>
+            <h2 style="text-align: center;">Click Play Again when one person reaches 5 points!</h2>
+        </div>
+    </div>
+    <div class = "footer">
+        <p>For fun footer</p>
+    </div>
 </body>
 </html>

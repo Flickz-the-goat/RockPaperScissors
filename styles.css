@@ -1,0 +1,59 @@
+body{
+    display:flex;
+    flex-direction: column;
+    margin: 0px;
+    height:100vh; 
+}
+.header,.footer{
+    text-align: center;
+    background-color: rgba(139, 0, 0, 0.7);
+}
+.game{
+    flex: 1;
+    display:flex;
+    flex-direction: column;
+}
+.scores{
+    display: flex; 
+    justify-content: center;
+    gap: 50px;   
+}
+.scoreNum,.playing{
+    display:flex;
+    justify-content: center;
+    gap:200px;
+}
+.playing{
+    gap: 150px;
+}
+.icon{
+    border: 2px solid black; 
+    height: 200px; 
+    width:200px;
+    text-align:center; 
+}
+.options{
+    display:flex; 
+    justify-content: center;
+    padding-top: 20px; 
+    gap: 100px; 
+}
+button{
+    border:5px solid;
+    border-color:rgba(139, 0, 0, 0.7);
+    border-radius: 50px;  
+    height:100px;
+    width:100px;
+    background-color: rgba(139, 0, 0, 0.7);
+}
+.playA{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding:20px; 
+}
+.playAgainB{
+    display:flex;
+    justify-content: center;
+}
